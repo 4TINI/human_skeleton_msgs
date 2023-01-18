@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package format="2">
+    <name>human_skeleton_msgs</name>
+    <version>0.0.1</version>
+    <description>human_skeleton_msgs provides messages for ROS based AI skeleton tracking systems</description>
+    
+    <maintainer email="lucafortini60@gmail.com">Luca Fortini</maintainer>
+
+    <license>MIT</license>
+
+    <url type="repository">https://github.com/4TINI/human_skeleton_msgs.git</url>
+    <author>Luca Fortini</author>
+
+    <buildtool_depend>catkin</buildtool_depend>
+
+    <build_depend>message_generation</build_depend>
+
+    <depend>rospy</depend>
+    <depend>geometry_msgs</depend>
+
+    <exec_depend>message_runtime</exec_depend>
+
+    <build_export_depend>message_runtime</build_export_depend>
+
+    <export>
+        <architecture_independent/>
+    </export>
+</package>
